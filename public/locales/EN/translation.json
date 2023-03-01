@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "title": "Hello👋! I am ",
+    "description": "I love contributing to exciting and challenging projects. I enjoy working in a team and collaborating with my peers to achieve common goals. I'm always looking for new challenges and learning opportunities.",
+    "contact": "Get in touch!",
+    "cv": "View CV"
+  },
+  "code": {
+    "welcome": "welcome",
+    "about": "about",
+    "name": "firstname",
+    "lastname": "lastname",
+    "nickname": "nickname",
+    "image": "image",
+    "age": "age",
+    "country": "country",
+    "spanish": "spanish",
+    "spanishValue": "Native",
+    "english": "English",
+    "englishValue": "Advanced (C1)"
+  }
+}
