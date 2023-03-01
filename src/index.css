@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar hover animation */
+
+#tools:hover ~ #navHover {
+  left: 0;
+  transform: translate(300%, 0);
+}
+
+#docs:hover ~ #navHover {
+  left: 0;
+  transform: translate(200%, 0);
+}
+
+#blog:hover ~ #navHover {
+  left: 0;
+  transform: translate(100%, 0);
+}
+
+#home:hover ~ #navHover {
+  left: 0;
+  transform: translate(0%, 0);
+}
