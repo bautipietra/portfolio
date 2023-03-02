@@ -18,5 +18,31 @@
     "spanishValue": "Nativo",
     "english": "inglés",
     "englishValue": "Avanzado (C1)"
+  },
+  "blog": {
+    "title": "Ultimos articulos",
+    "view": "Ver todos los articulos",
+    "read": "Leer articulo"
+  },
+  "experience": {
+    "title": "Experiencia profesional",
+    "tech": "Tecnologías",
+    "soyhenry": "Asistente de profesor",
+    "coderhouse": "Tutor Backend",
+    "nsDate": "FEB 2023 - ACTUALIDAD",
+    "chDate": "FEB 2023 - ACTUALIDAD",
+    "shDate": "DEC 2022 - ENE 2023",
+    "ch1": "• Despejar dudas de los estudiantes durante las clases",
+    "ch2": "• Corregir los desafíos y las entregas intermedias del proyecto final",
+    "ch3": "• Realizar un seguimiento y acompañamiento de los estudiantes en su proceso de aprendizaje",
+    "sh1": "• Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio.",
+    "sh2": "• Orientar a los estudiantes durante la cursada.",
+    "sh3": "• Asistir en la resolución de ejercicios y promover la colaboración grupa",
+    "ns1": "• Auth con integración de Google",
+    "ns2": "• Sistema de búsqueda y filtrado",
+    "ns3": "• Sistema de publicaciones"
+  },
+  "contact": {
+    "title": "Contacto"
   }
 }

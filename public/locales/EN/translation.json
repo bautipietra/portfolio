@@ -18,5 +18,31 @@
     "spanishValue": "Native",
     "english": "English",
     "englishValue": "Advanced (C1)"
+  },
+  "blog": {
+    "title": "Latest articles",
+    "view": "View all articles",
+    "read": "Read article"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "tech": "technologies",
+    "soyhenry": "Teaching Assistant",
+    "coderhouse": "Backend Tutor",
+    "nsDate": "FEB 2023 - CURRENT",
+    "chDate": "FEB 2023 - CURRENT",
+    "shDate": "DEC 2022 - JAN 2023",
+    "ch1": "• Clear students' doubts during classes",
+    "ch2": "• Correct challenges and intermediate deliverables of the final project",
+    "ch3": "• Follow up and accompany students in their learning process",
+    "sh1": "• Coordinate a group of students to achieve integration to the study group.",
+    "sh2": "• Guide students during the course of study.",
+    "sh3": "• Assist in the resolution of exercises and promote group collaboration",
+    "ns1": "• Auth with Google integration",
+    "ns2": "• Search and filtering system",
+    "ns3": "• Publishing system"
+  },
+  "contact": {
+    "title": "Get in touch"
   }
 }
