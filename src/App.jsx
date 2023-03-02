@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom"
-import Footer from "./pages/Footer/Footer"
 import Nav from "./pages/Nav/Nav"
 import Home from "./pages/Home/Home"
 import { Toaster } from 'react-hot-toast';
 import AnimatedCursor from "react-animated-cursor"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           '.cursorClick'
         ]}
       />
+      <ScrollToTop></ScrollToTop>
       <Nav></Nav>
       <Toaster
         position="top-center"
@@ -38,7 +39,6 @@ function App() {
         <Route path="" element={<Home></Home>} />
         <Route path="*" element={<Home></Home>} />
       </Routes>
-      <Footer></Footer>
     </div>
   )
 }
