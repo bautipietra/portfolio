@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Code from './Code'
 import Languages from './Languages'
 import { TbChevronsDown } from 'react-icons/tb'
@@ -20,8 +20,11 @@ const Hero = () => {
     }
   }, [isExploding])
 
-
   const getInTouchHandler = () => {
+    setIsExploding(true)
+    setTimeout(() => {
+      document.querySelector('#contact').scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 200);
   }
 
   return (
@@ -34,7 +37,7 @@ const Hero = () => {
         <Languages></Languages>
         <p className='text-zinc-400 font-medium m-auto xl:m-0 w-10/12'>{t('hero.description')}</p>
         <div className='flex gap-4 relative m-auto xl:m-0'>
-          <button onClick={() => setIsExploding(true)} className='font-semibold px-6 py-2 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl hover:scale-105 transition-transform flex items-center gap-2'>{t('hero.contact')} <TbChevronsDown size={'20px'}></TbChevronsDown></button>
+          <button onClick={getInTouchHandler} className='font-semibold px-6 py-2 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl hover:scale-105 transition-transform flex items-center gap-2'>{t('hero.contact')} <TbChevronsDown size={'20px'}></TbChevronsDown></button>
           <div className='font-semibold p-0.5 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl overflow-hidden w-fit hover:scale-105 transition-transform'>
             <a href={i18n.language == 'EN' ?
               'https://drive.google.com/file/d/1Vgd9la-8OhLM_I1LgNedfllTl3uyIKvd/view' :
