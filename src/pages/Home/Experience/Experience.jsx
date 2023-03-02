@@ -24,7 +24,7 @@ const Experience = () => {
           </div>
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Next Step <span className='text-sky-400'>, Full Stack Developer</span></h3>
-            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Redux, Python, Django, MongoDB</p>
+            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Python, Django, MongoDB</p>
             <p className="mb-3 text-zinc-400 grid gap-2">
               <span>{t('experience.ns1')}</span>
               <span>{t('experience.ns2')}</span>
@@ -42,7 +42,7 @@ const Experience = () => {
           </div>
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Coderhouse <span className='text-sky-400'>, {t('experience.coderhouse')}</span></h3>
-            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Redux, Python, Django, MongoDB</p>
+            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> Node, Express, MongoDB, MySQL</p>
             <p className="mb-3 text-zinc-400 grid gap-2">
               <span>{t('experience.ch1')}</span>
               <span>{t('experience.ch2')}</span>
@@ -60,7 +60,7 @@ const Experience = () => {
           </div>
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Soy Henry <span className='text-sky-400'>, {t('experience.soyhenry')}</span></h3>
-            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Redux, Python, Django, MongoDB</p>
+            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Node, Express, PostgreSQL</p>
             <p className="mb-3 text-zinc-400 grid gap-2">
               <span>{t('experience.sh1')}</span>
               <span>{t('experience.sh2')}</span>
