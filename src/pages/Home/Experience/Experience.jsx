@@ -14,10 +14,11 @@ const Experience = () => {
       <Title title={t('experience.title')}></Title>
       <ol
         className="border-l border-zinc-400 lg:grid grid-cols-3 lg:justify-center lg:gap-16 lg:border-l-0 lg:border-t">
+
+        {/* Experience 1 */}
         <li>
           <div className="flex-start flex items-center pt-2 lg:block lg:pt-0">
-            <div
-              className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
+            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
             <p className="mt-2 text-sm text-zinc-400">
               {t('experience.nsDate')}
             </p>
@@ -32,10 +33,11 @@ const Experience = () => {
             </p>
           </div>
         </li>
+
+        {/* Experience 2 */}
         <li>
           <div className="flex-start flex items-center pt-2 lg:block lg:pt-0">
-            <div
-              className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
+            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
             <p className="mt-2 text-sm text-zinc-400">
               {t('experience.chDate')}
             </p>
@@ -50,10 +52,11 @@ const Experience = () => {
             </p>
           </div>
         </li>
+
+        {/* Experience 3 */}
         <li>
           <div className="flex-start flex items-center pt-2 lg:block lg:pt-0">
-            <div
-              className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
+            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
             <p className="mt-2 text-sm text-zinc-400">
               {t('experience.shDate')}
             </p>
