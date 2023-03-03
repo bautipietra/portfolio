@@ -443,16 +443,11 @@
     background: rgba(240, 246, 252, 0.15);
     background: var(--background-bright);
   }
-  pre {
-    display: block;
-    overflow-x: auto;
-  }
   pre > code {
     background: var(--background);
     border: solid 1px #0c4a6e;
     padding: 1em;
     display: block;
-    overflow-x: auto;
     line-height: 150%;
     color: #0ea5e9;
   }
@@ -826,6 +821,12 @@ details[open] summary:after {
   input[type='button']:disabled,
   button:disabled {
     border-color: rgb(48, 54, 61);
+  }
+
+  pre,
+  code {
+    white-space: pre-wrap;
+    word-break: break-all;
   }
 
   /*# sourceMappingURL=bahunya.css.map */
