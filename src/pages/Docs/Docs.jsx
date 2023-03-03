@@ -5,6 +5,7 @@ import BackDocs from './BackDocs'
 import FrontDocs from './FrontDocs'
 import { toast } from 'react-hot-toast'
 import { useTranslation } from 'react-i18next'
+import CustomCursor from '../../components/CustomCursor'
 
 const Docs = () => {
   const { i18n } = useTranslation()
@@ -21,6 +22,9 @@ const Docs = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}>
+
+      {/* Custom cursor */}
+      <CustomCursor></CustomCursor>
 
       {/* Lights */}
       <motion.div className='absolute  left-full -translate-x-1/2 top-[100vh]  shadow-[0px_0px_300px_50px_#0ea5e9]'

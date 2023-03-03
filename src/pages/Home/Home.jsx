@@ -5,6 +5,7 @@ import Contact from './Contact/Contact'
 import Blog from './Blog/Blog'
 import Experience from './Experience/Experience'
 import Projects from './Projects/Projects'
+import CustomCursor from '../../components/CustomCursor'
 
 const Home = () => {
   return (
@@ -20,6 +21,9 @@ const Home = () => {
       <Projects></Projects>
       <Blog></Blog>
       <Contact></Contact>
+
+      {/* Custom cursor */}
+      <CustomCursor></CustomCursor>
 
       {/* Light */}
       <motion.div className='absolute  left-full -translate-x-1/2 top-[100vh]  shadow-[0px_0px_300px_50px_#0ea5e9]'
