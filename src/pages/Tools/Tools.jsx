@@ -128,7 +128,7 @@ const Tools = () => {
       {/* Categories */}
       <div className='flex gap-2 justify-center items-center flex-wrap'>
         {categories.map((c, i) => (
-          <div onClick={(e) => filtersHandler(e)} id={c} key={'i' + i} className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 text-white rounded-full cursorClick">
+          <div onClick={(e) => filtersHandler(e)} id={c} key={'i' + i} className={`text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 ring-0  rounded-full cursorClick ${query == c ? 'bg-white text-sky-500' : 'bg-gradient-to-r  from-sky-500 to-sky-700 text-white'}`}>
             {c}
           </div>
         ))}
