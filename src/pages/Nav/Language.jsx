@@ -19,6 +19,7 @@ const Language = () => {
 
   return (
     <div className='relative z-20'>
+      {/* Language button */}
       <button onClick={() => setDropdown(!dropdown)} className='flex items-center gap-2 cursor-pointer font-semibold text-lg'>
         {i18n.language == 'EN' ? <img src={English} alt='United States flag' className='h-4 object-cover'></img> : <img src={Spanish} alt='Spain flag' className='h-4 object-cover'></img>}
         {i18n.language == 'EN' ? 'EN' : 'ES'}
@@ -26,6 +27,8 @@ const Language = () => {
           <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
         </svg>
       </button>
+
+      {/* Dropdown */}
       <AnimatePresence>
         {dropdown && <motion.div
           className='absolute top-full w-[120%] left-1/2 -translate-x-1/2 translate-y-2 bg-gradient-to-r  from-sky-500 to-sky-700 rounded-xl overflow-hidden grid divide-y divide-sky-600'
