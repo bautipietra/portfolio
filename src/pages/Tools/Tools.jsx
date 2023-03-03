@@ -9,7 +9,7 @@ import pexels from '../../assets/tools/pexels.webp'
 import fontawesome from '../../assets/tools/fontawesome.webp'
 import rapidapi from '../../assets/tools/rapidapi.webp'
 import tiltjs from '../../assets/tools/tiltjs.webp'
-import pixie from '../../assets/tools/pixie.webp'
+import pixie from '../../assets/tools/Pixie.webp'
 import boostrapicons from '../../assets/tools/boostrapicons.webp'
 import framermotion from '../../assets/tools/framermotion.webp'
 
