@@ -21,6 +21,7 @@ const Code = () => {
       animate={{ y: [5, -5] }}
       transition={{ duration: 1.5, repeat: Infinity, repeatType: 'reverse' }}
     >
+      {/* Image */}
       {<AnimatePresence>
         {showImage && <motion.div onClick={() => setshowImage(false)} className='fixed h-full w-full z-10 grid place-content-center top-0 left-0  bg-black bg-opacity-50 backdrop-blur-sm cursorClick'
           initial={{ opacity: 0, scale: 0, borderRadius: '50%' }}
@@ -31,6 +32,8 @@ const Code = () => {
           <img src={avatar} alt="Bautista Pietraroia" className='h-48 w-48 object-cover rounded-xl' />
         </motion.div>}
       </AnimatePresence>}
+
+      {/* Code snippet */}
       <div className='bg-slate-900 bg-opacity-50 backdrop-blur-lg grid p-2 rounded-xl w-full divide-y-[1px] divide-zinc-600 gap-2'>
         <div className='flex justify-between items-center'>
           <div className='flex gap-1'>
