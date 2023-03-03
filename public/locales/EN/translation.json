@@ -38,9 +38,9 @@
     "sh1": "• Coordinate a group of students to achieve integration to the study group.",
     "sh2": "• Guide students during the course of study.",
     "sh3": "• Assist in the resolution of exercises and promote group collaboration",
-    "ns1": "• Auth with Google integration",
-    "ns2": "• Search and filtering system",
-    "ns3": "• Publishing system"
+    "ns1": "• Design and create RESTful APIs for communication between services.",
+    "ns2": "• Create and maintain integrations with third party services such as online payments, email services, analytics services, among others.",
+    "ns3": "• Develop and maintain authentication and authorization systems."
   },
   "contact": {
     "title": "Get in touch"
