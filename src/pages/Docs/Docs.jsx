@@ -37,7 +37,7 @@ const Docs = () => {
       ></motion.div>
 
       {/* Content */}
-      <Title title={'Docs'}></Title>
+      <Title title={'Documentación'}></Title>
       <FrontDocs></FrontDocs>
       <BackDocs></BackDocs>
     </motion.div >
