@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Title from '../../components/Title'
 import { motion } from 'framer-motion'
 import undraw from '../../assets/tools/undraw.webp'
@@ -12,8 +12,27 @@ import tiltjs from '../../assets/tools/tiltjs.webp'
 import pixie from '../../assets/tools/Pixie.webp'
 import boostrapicons from '../../assets/tools/boostrapicons.webp'
 import framermotion from '../../assets/tools/framermotion.webp'
+import { useTranslation } from 'react-i18next'
+import { Link, useSearchParams } from 'react-router-dom'
 
 const Tools = () => {
+  const { t } = useTranslation()
+
+  let [searchParams, setSearchParams] = useSearchParams();
+  let [query, setQuery] = useState(searchParams.get('category') || "all");
+
+  const [toolsFiltered, setToolsFiltered] = useState([])
+  useEffect(() => {
+    if (query === 'all') setToolsFiltered(tools)
+    else setToolsFiltered(tools.filter(t => t.category === query))
+  }, [query])
+
+  const filtersHandler = (e) => {
+    const aux = e.target.id
+    setQuery(aux)
+    setSearchParams({ category: aux })
+  }
+
   const categories = [
     'all',
     'frontend',
@@ -100,12 +119,12 @@ const Tools = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}>
-      <Title title={'Tools'}></Title>
+      <Title title={t('tools.title')}></Title>
 
       {/* Categories */}
       <div className='flex gap-2 justify-center items-center flex-wrap'>
         {categories.map((c, i) => (
-          <div key={'i' + i} className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 text-white rounded-full cursorClick">
+          <div onClick={(e) => filtersHandler(e)} id={c} key={'i' + i} className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 text-white rounded-full cursorClick">
             {c}
           </div>
         ))}
@@ -114,7 +133,7 @@ const Tools = () => {
       {/* Tools */}
       <div className="grid w-full md:grid-cols-2 lg:grid-cols-3 gap-4">
         {
-          tools.map((t, i) => (
+          toolsFiltered.map((t, i) => (
             <motion.a key={i} href={t.url} className='cursorClick' target={'_blank'}
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -122,7 +141,7 @@ const Tools = () => {
               transition={{ duration: 0.3, delay: 0.1 * i }}
             >
               <div className="overflow-hidden  aspect-video bg-red-400 cursor-pointer rounded-xl relative group">
-                <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
+                <div className="rounded-xl z-[5] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
                   <div className="transform-gpu w-full flex justify-between items-center p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
                     <div className="font-bold">{t.name}</div>
                     <div key={i} className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 text-white rounded-full ">
