@@ -13,7 +13,7 @@ import pixie from '../../assets/tools/Pixie.webp'
 import boostrapicons from '../../assets/tools/boostrapicons.webp'
 import framermotion from '../../assets/tools/framermotion.webp'
 import { useTranslation } from 'react-i18next'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import CustomCursor from '../../components/CustomCursor'
 
 const Tools = () => {
@@ -146,7 +146,7 @@ const Tools = () => {
             >
               <div className="overflow-hidden  aspect-video rounded-xl relative group">
                 <div className="rounded-xl z-[5] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                  <div className="transform-gpu w-full flex justify-between items-center p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
+                  <div className="w-full flex justify-between items-center p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
                     <div className="font-bold">{t.name}</div>
                     <div key={i} className="text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 text-white rounded-full ">
                       {t.category}
