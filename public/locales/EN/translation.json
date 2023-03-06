@@ -40,7 +40,11 @@
     "sh3": "• Assist in the resolution of exercises and promote group collaboration",
     "ns1": "• Design and create RESTful APIs for communication between services.",
     "ns2": "• Create and maintain integrations with third party services such as online payments, email services, analytics services, among others.",
-    "ns3": "• Develop and maintain authentication and authorization systems."
+    "ns3": "• Develop and maintain authentication and authorization systems.",
+    "ms1": "•  Integration of third party services such as online payments and analytics services.",
+    "ms2": "•  Create user interfaces for web and mobile applications.",
+    "ms3": "•  Automated chat development for customer support.",
+    "msDate": "JAN 2023 - FEB 2023"
   },
   "contact": {
     "title": "Get in touch"

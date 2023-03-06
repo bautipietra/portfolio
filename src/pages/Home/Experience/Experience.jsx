@@ -13,7 +13,7 @@ const Experience = () => {
       ></motion.div>
       <Title title={t('experience.title')}></Title>
       <ol
-        className="border-l border-zinc-400 lg:grid grid-cols-3 lg:justify-center lg:gap-16 lg:border-l-0 lg:border-t">
+        className="border-l border-zinc-400 lg:grid grid-flow-col auto-cols-fr lg:justify-center lg:gap-16 lg:border-l-0 lg:border-t">
 
         {/* Experience 1 */}
         <li>
@@ -54,6 +54,25 @@ const Experience = () => {
         </li>
 
         {/* Experience 3 */}
+        <li>
+          <div className="flex-start flex items-center pt-2 lg:block lg:pt-0">
+            <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
+            <p className="mt-2 text-sm text-zinc-400">
+              {t('experience.msDate')}
+            </p>
+          </div>
+          <div className="mt-2 ml-4 pb-5 lg:ml-0">
+            <h3 className="mb-1.5 text-xl font-semibold">Mercado Solidario <span className='text-sky-400'>, Frontend Developer</span></h3>
+            <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Next, Tailwind</p>
+            <p className="mb-3 text-zinc-400 grid gap-2">
+              <span>{t('experience.ms1')}</span>
+              <span>{t('experience.ms2')}</span>
+              <span>{t('experience.ms3')}</span>
+            </p>
+          </div>
+        </li>
+
+        {/* Experience 4 */}
         <li>
           <div className="flex-start flex items-center pt-2 lg:block lg:pt-0">
             <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-zinc-400 lg:ml-0 lg:mr-0 lg:-mt-[5px]"></div>
