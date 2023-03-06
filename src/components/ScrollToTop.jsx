@@ -2,6 +2,7 @@ import { AnimatePresence } from 'framer-motion';
 import React, { useState } from 'react'
 import { IoIosArrowUp } from 'react-icons/io'
 import { motion } from 'framer-motion'
+import CustomCursor from './CustomCursor';
 
 const ScrollToTop = () => {
   const [scroll, setScroll] = useState(0)
@@ -16,6 +17,7 @@ const ScrollToTop = () => {
   }
   return (
     <AnimatePresence>
+      <CustomCursor></CustomCursor>
       {
         scroll > '10' ?
           <motion.div onClick={scrollHandler} className='fixed right-8 bottom-8 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-full p-2 cursorClick z-[5]'
