@@ -53,7 +53,6 @@ const Code = () => {
               {'  '}<span className="text-blue-400">const</span> {t('code.about')} <span className="text-blue-400">=</span> <span className='text-yellow-100'>&#123;</span> <br></br>
               {'  '}{'  '}<span className="text-blue-400">const</span> {t('code.name')} <span className="text-blue-400">=</span> '<span className="text-yellow-100">Bautista</span>' <br></br>
               {'  '}{'  '}<span className="text-blue-400">const</span> {t('code.lastname')} <span className="text-blue-400">=</span> '<span className="text-yellow-100">Pietraroia</span>' <br></br>
-              {'  '}{'  '}<span className="text-blue-400">const</span> {t('code.nickname')} <span className="text-blue-400">=</span> '<span className="text-yellow-100">PietraDev</span>' <br></br>
               {'  '}{'  '}<span className="text-blue-400">const</span> {t('code.image')} <span className="text-blue-400">=</span> '<span className="text-yellow-100 underline cursor-pointer cursorClick" onClick={() => setshowImage(true)} >bautistapietraroia.jpg</span>'<br></br>
               {'  '}{'  '}<span className="text-blue-400">let</span> {t('code.age')} <span className="text-blue-400">=</span> <span className="text-yellow-100">19</span> <br></br>
               {'  '}{'  '}<span className="text-blue-400">const</span> {t('code.country')} <span className="text-blue-400">=</span> '<span className="text-yellow-100">Argentina</span>' <br></br>
