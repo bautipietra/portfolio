@@ -49,7 +49,7 @@ const Hero = () => {
       <div className='grid items-center gap-4 xl:max-w-2xl text-center xl:text-start'>
 
         {/* Hero Left side */}
-        <h1 className='font-black text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl xl:text-[3.3rem]'>{t('hero.title')} <span className='text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-sky-700'>PietraDev</span><br></br>
+        <h1 className='font-black text-2xl xxs:text-3xl xs:text-4xl sm:text-5xl xl:text-[3.3rem]'>{t('hero.title')} <span className='text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-sky-700'>Bautista</span><br></br>
           Full Stack Developer
         </h1>
         <Languages></Languages>
