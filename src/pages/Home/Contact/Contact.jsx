@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div id='contact' className='grid gap-16 pb-32'>
       <Title title={t('contact.title')}></Title>
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
         <a href='https://www.linkedin.com/in/bautista-pietraroia/' target={'_blank'} aria-label='Linkedin' className='h-full w-full bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl grid place-content-center py-8 shadow-[0px_0px_10px_1px_#0284c7]'>
           <FaLinkedinIn size={size} className='drop-shadow-2xl'></FaLinkedinIn>
         </a>
