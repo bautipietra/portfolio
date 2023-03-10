@@ -14,7 +14,7 @@ const Blog = () => {
         <a href="/blog" className='flex gap-2 items-center text-sky-500 font-medium hover:scale-105 transition-transform'>{t('blog.view')} <BsArrowRight size={'20px'}></BsArrowRight></a>
       </div>
       <div className='grid lg:grid-cols-2 relative gap-4'>
-        <motion.div className='absolute shadow-[0px_0px_300px_50px_#0ea5e9]'
+        <motion.div className='absolute shadow-[0px_0px_300px_50px_#0ea5e9] left-full'
           animate={{ x: [30, -20, 20, -30], y: [30, -20, 20, -30], rotate: [0, 90], scale: [1, 1.2, 1.2, 1] }}
           transition={{ duration: 10, repeat: Infinity, repeatType: 'reverse' }}
         ></motion.div>
