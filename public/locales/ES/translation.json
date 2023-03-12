@@ -50,5 +50,20 @@
   },
   "tools": {
     "title": "Herramientas"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "tech": "Tecnologías",
+    "ec1": "• Desarrollo de sistema de autenticación y autorización local y de terceros.",
+    "ec2": "• Integración de servicios de pagos en línea.",
+    "ec3": "• Implementación de sistemas de búsqueda, filtrado y guardado  de productos.",
+    "waTitle": "App del clima",
+    "wa1": "• Diseño y desarrollo de una interfaz minimalista, moderna y responsiva",
+    "wa2": "• Integración con API para la obtención de datos en tiempo real",
+    "wa3": "• implementación de sistema de búsqueda por ubicación",
+    "trTitle": "App de recetas",
+    "tr1": "• Configuración de la base de datos y modelación de las relaciones.",
+    "tr2": "• Implementación de API RESTful, manejo de solicitudes HTTP, y validación de datos.",
+    "tr3": "• Desarrollo de  componentes reutilizables y optimizacion del rendimiento mediante el uso de hooks"
   }
 }

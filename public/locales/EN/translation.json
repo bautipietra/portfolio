@@ -50,5 +50,20 @@
   },
   "tools": {
     "title": "Tools"
+  },
+  "projects": {
+    "title": "Projects",
+    "tech": "Technologies",
+    "ec1": "• Development of local and third party authentication and authorization system.",
+    "ec2": "• Integration of online payment services.",
+    "ec3": "• Implementation of product search, filtering and saving systems.",
+    "waTitle": "Weather App",
+    "wa1": "• Design and development of a minimalist, modern and responsive interface",
+    "wa2": "• Integration with API for real-time data collection",
+    "wa3": "• Implementation of a location-based search system",
+    "trTitle": "Recipes App",
+    "tr1": "• Database configuration and relationship modeling.",
+    "tr2": "• RESTful API implementation, HTTP request handling, and data validation.",
+    "tr3": "• Development of reusable components and performance optimization through the use of hooks"
   }
 }
