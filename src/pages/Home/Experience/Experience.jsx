@@ -26,11 +26,11 @@ const Experience = () => {
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Next Step <span className='text-sky-400'>, Full Stack Developer</span></h3>
             <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Python, Django, MongoDB</p>
-            <p className="mb-3 text-zinc-400 grid gap-2">
-              <span>{t('experience.ns1')}</span>
-              <span>{t('experience.ns2')}</span>
-              <span>{t('experience.ns3')}</span>
-            </p>
+            <ul className="mb-3 text-zinc-400 grid gap-2">
+              <li>{t('experience.ns1')}</li>
+              <li>{t('experience.ns2')}</li>
+              <li>{t('experience.ns3')}</li>
+            </ul>
           </div>
         </li>
 
@@ -45,11 +45,11 @@ const Experience = () => {
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Coderhouse <span className='text-sky-400'>, {t('experience.coderhouse')}</span></h3>
             <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> Node, Express, MongoDB, MySQL</p>
-            <p className="mb-3 text-zinc-400 grid gap-2">
-              <span>{t('experience.ch1')}</span>
-              <span>{t('experience.ch2')}</span>
-              <span>{t('experience.ch3')}</span>
-            </p>
+            <ul className="mb-3 text-zinc-400 grid gap-2">
+              <li>{t('experience.ch1')}</li>
+              <li>{t('experience.ch2')}</li>
+              <li>{t('experience.ch3')}</li>
+            </ul>
           </div>
         </li>
 
@@ -64,11 +64,11 @@ const Experience = () => {
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
             <h3 className="mb-1.5 text-xl font-semibold">Mercado Solidario <span className='text-sky-400'>, Frontend Developer</span></h3>
             <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Next, Tailwind</p>
-            <p className="mb-3 text-zinc-400 grid gap-2">
-              <span>{t('experience.ms1')}</span>
-              <span>{t('experience.ms2')}</span>
-              <span>{t('experience.ms3')}</span>
-            </p>
+            <ul className="mb-3 text-zinc-400 grid gap-2">
+              <li>{t('experience.ms1')}</li>
+              <li>{t('experience.ms2')}</li>
+              <li>{t('experience.ms3')}</li>
+            </ul>
           </div>
         </li>
 
