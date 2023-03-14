@@ -30,7 +30,9 @@ const Languages = () => {
         <SiRedux title='Redux' size={iconSize}></SiRedux>
         <span className='font-medium hidden md:inline'>Redux</span>
       </div>
-      <div className='h-0 basis-full hidden md:block'></div>
+
+      <div className='h-0 basis-full block xs:hidden md:block'></div>
+
       <div className='flex items-center gap-2'>
         <FaPython title='Python' size={iconSize}></FaPython>
         <span className='font-medium hidden md:inline'>Python</span>
