@@ -36,7 +36,7 @@
     "ch3": "• Realizar un seguimiento y acompañamiento de los estudiantes en su proceso de aprendizaje.",
     "sh1": "• Coordinar a un grupo de estudiantes para lograr la integración al grupo de estudio.",
     "sh2": "• Orientar a los estudiantes durante la cursada.",
-    "sh3": "• Asistir en la resolución de ejercicios y promover la colaboración grupa.",
+    "sh3": "• Asistir en la resolución de ejercicios y promover la colaboración grupal.",
     "ns1": "• Diseñar y crear API RESTful para comunicación entre servicios.",
     "ns2": "• Crear y mantener integraciones con servicios de terceros como pagos en línea, servicios de correo electrónico, servicios de análisis, entre otros.",
     "ns3": "• Desarrollar y mantener sistemas de autenticación y autorización.",
@@ -52,7 +52,7 @@
     "title": "Herramientas"
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "Proyectos destacados",
     "tech": "Tecnologías",
     "ec1": "• Desarrollo de sistema de autenticación y autorización local y de terceros.",
     "ec2": "• Integración de servicios de pagos en línea.",
@@ -65,5 +65,9 @@
     "tr1": "• Configuración de la base de datos y modelación de las relaciones.",
     "tr2": "• Implementación de API RESTful, manejo de solicitudes HTTP, y validación de datos.",
     "tr3": "• Desarrollo de  componentes reutilizables y optimizacion del rendimiento mediante el uso de hooks"
+  },
+  "error": {
+    "button": "Volver al inicio",
+    "title": "Ups! No hay nada aquí..."
   }
 }
