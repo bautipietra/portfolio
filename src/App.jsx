@@ -7,6 +7,7 @@ import Docs from "./pages/Docs/Docs";
 import { AnimatePresence } from "framer-motion";
 import HTML from "./pages/Docs/HTML/HTML";
 import Tools from "./pages/Tools/Tools";
+import Error from "./pages/Error/Error";
 
 function App() {
   const location = useLocation();
@@ -28,7 +29,7 @@ function App() {
           <Route path="/docs" element={<Docs></Docs>} />
           <Route path="/docs/html" element={<HTML></HTML>} />
           <Route path="/tools" element={<Tools></Tools>} />
-          <Route path="*" element={<Home></Home>} />
+          <Route path="*" element={<Error></Error>} />
         </Routes>
       </AnimatePresence>
     </div>
