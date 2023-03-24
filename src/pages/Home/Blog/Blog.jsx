@@ -33,9 +33,10 @@ const Blog = () => {
             repeat: Infinity,
             repeatType: 'reverse'
           }}></motion.div>
-        {articles.slice(-3).map((a) => (
+        {articles.slice(0, 3).map((a) => (
           <Link
             to={'/blog/' + a.url}
+            key={a.url}
             className='p-8 bg-gradient-to-r  from-slate-900 to-slate-800 ring-0 rounded-xl grid gap-4 group relative overflow-hidden'>
             <BottomContainer></BottomContainer>
             <h3 className='font-semibold text-xl'>{a.title}</h3>
