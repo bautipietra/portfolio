@@ -6,7 +6,8 @@
     title: 'titulo',
     description: 'descripción',
     content: ``,
-    date: '31/12/2023'
+    date: '31/12/2023',
+		tags: ['#tag']
   }
 
 */
@@ -71,7 +72,17 @@ const articles = [
 	<p>En resumen, ser un desarrollador full-stack requiere un esfuerzo continuo de aprendizaje y crecimiento. Con un roadmap bien estructurado y una mentalidad de aprendizaje continuo, puedes alcanzar tus metas y convertirte en un experto en el desarrollo web.</p>
 	<p>¡Buena suerte en tu camino como desarrollador full-stack!</p>
     `,
-    date: '23/03/2023'
+    date: '23/03/2023',
+    tags: [
+      '#DesarrolloWeb',
+      '#DesarrolloFullStack',
+      '#Roadmap',
+      '#Tecnologías',
+      '#Skills',
+      '#PatronesDeDiseño',
+      '#FrontEnd',
+      '#BackEnd'
+    ]
   }
 ];
 
