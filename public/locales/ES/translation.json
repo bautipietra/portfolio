@@ -64,7 +64,8 @@
     "trTitle": "App de recetas",
     "tr1": "• Configuración de la base de datos y modelación de las relaciones.",
     "tr2": "• Implementación de API RESTful, manejo de solicitudes HTTP, y validación de datos.",
-    "tr3": "• Desarrollo de  componentes reutilizables y optimizacion del rendimiento mediante el uso de hooks"
+    "tr3": "• Desarrollo de  componentes reutilizables y optimizacion del rendimiento mediante el uso de hooks",
+    "coming": "Próximamente... 😉"
   },
   "error": {
     "button": "Volver al inicio",

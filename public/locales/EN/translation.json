@@ -64,7 +64,8 @@
     "trTitle": "Recipes App",
     "tr1": "• Database configuration and relationship modeling.",
     "tr2": "• RESTful API implementation, HTTP request handling, and data validation.",
-    "tr3": "• Development of reusable components and performance optimization through the use of hooks"
+    "tr3": "• Development of reusable components and performance optimization through the use of hooks",
+    "coming": "Coming soon... 😉"
   },
   "error": {
     "button": "Back to home",
