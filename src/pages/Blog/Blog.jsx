@@ -55,31 +55,39 @@ const Blog = () => {
             repeat: Infinity,
             repeatType: 'reverse'
           }}></motion.div>
-        {articles.map((a) => (
-          <Link
-            to={'/blog/' + a.url}
-            key={a.url}
-            className='bg-gradient-to-r  from-slate-900 to-slate-800 ring-0 rounded-xl grid group relative overflow-hidden grid-cols-12'>
-            <BottomContainer></BottomContainer>
-            <img
-              src={a.thumbnail}
-              alt=''
-              className='col-span-4 h-full w-full object-cover'
-            />
-            <div className='flex flex-col col-span-8 relative px-8 py-4 justify-between'>
-              <div className='grid gap-4'>
-                <h3 className='font-semibold text-2xl'>{a.title}</h3>
-                <p className='text-zinc-400'>{a.description}</p>
+        {articles.map((a, i) => (
+          <motion.div
+            key={'f' + i}
+            className='w-full h-full'
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            transition={{ duration: 0.3, delay: i * 0.1 }}>
+            <Link
+              to={'/blog/' + a.url}
+              key={a.url}
+              className='bg-gradient-to-r  from-slate-900 to-slate-800 ring-0 rounded-xl grid group relative overflow-hidden md:grid-cols-12'>
+              <BottomContainer></BottomContainer>
+              <img
+                src={a.thumbnail}
+                alt=''
+                className='md:col-span-4 h-full w-full object-cover'
+              />
+              <div className='flex flex-col md:col-span-8 relative px-8 py-4 justify-between gap-4'>
+                <div className='grid gap-4'>
+                  <h3 className='font-semibold text-2xl'>{a.title}</h3>
+                  <p className='text-zinc-400'>{a.description}</p>
+                </div>
+                <div className='flex justify-between text-zinc-400 items-center self-end w-full'>
+                  <span>{a.date}</span>
+                  <span className='flex gap-2 items-center group-hover:text-sky-500 transition-colors'>
+                    {t('blog.read')}{' '}
+                    <BsArrowRight size={'20px'}></BsArrowRight>
+                  </span>
+                </div>
               </div>
-              <div className='flex justify-between text-zinc-400 items-center self-end w-full'>
-                <span>{a.date}</span>
-                <span className='flex gap-2 items-center group-hover:text-sky-500 transition-colors'>
-                  {t('blog.read')}{' '}
-                  <BsArrowRight size={'20px'}></BsArrowRight>
-                </span>
-              </div>
-            </div>
-          </Link>
+            </Link>
+          </motion.div>
         ))}
       </div>
     </motion.div>
