@@ -13,11 +13,11 @@ const Blog = () => {
     <div className='grid gap-4'>
       <div className='flex justify-between items-center md:items-end flex-col md:flex-row'>
         <Title title={t('blog.title')}></Title>
-        <a
-          href='/blog'
+        <Link
+          to='/blog'
           className='flex gap-2 items-center text-sky-500 font-medium hover:scale-105 transition-transform'>
           {t('blog.view')} <BsArrowRight size={'20px'}></BsArrowRight>
-        </a>
+        </Link>
       </div>
       <div className='grid lg:grid-cols-2 relative gap-4'>
         <motion.div
