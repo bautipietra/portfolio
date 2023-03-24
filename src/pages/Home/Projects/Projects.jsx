@@ -7,9 +7,16 @@ import { useTranslation } from 'react-i18next';
 import BottomContainer from '../../../components/BottomContainer';
 import { FaGithub } from 'react-icons/fa';
 import { ImLink } from 'react-icons/im';
+import { toast } from 'react-hot-toast';
 
 const Projects = () => {
   const { t } = useTranslation(['translation']);
+
+  const comingHandler = (e) => {
+    e.preventDefault();
+    toast.error(t('projects.coming'));
+  };
+
   return (
     <div className='grid gap-12'>
       <Title title={t('projects.title')}></Title>
@@ -26,8 +33,7 @@ const Projects = () => {
               E-commerce
             </h3>
             <p className='text-lg'>
-              {t('projects.tech')}: React, Node, Express,
-              PostgreSQL
+              {t('projects.tech')}: React, Node, Express, PostgreSQL
             </p>
             <ul className='mb-3 text-zinc-400 grid gap-2'>
               <li>{t('projects.ec1')}</li>
@@ -44,6 +50,7 @@ const Projects = () => {
               <div className='font-semibold p-0.5 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl overflow-hidden transition-transform'>
                 <a
                   href='https://sneakers.bautistapietraroia.com.ar/'
+                  onClick={comingHandler}
                   target='_blank'
                   className='px-6 py-2 bg-[#112] rounded-xl flex items-center gap-2 justify-center h-full'>
                   <ImLink></ImLink>Deploy
@@ -101,8 +108,7 @@ const Projects = () => {
               {t('projects.trTitle')}
             </h3>
             <p className='text-lg'>
-              {t('projects.tech')}: React, Redux, Node, Express,
-              PostgreSQL
+              {t('projects.tech')}: React, Redux, Node, Express, PostgreSQL
             </p>
             <ul className='mb-3 text-zinc-400 grid gap-2'>
               <li>{t('projects.tr1')}</li>
