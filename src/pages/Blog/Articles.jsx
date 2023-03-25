@@ -165,14 +165,14 @@ const articles = [
     title: 'Las mejores páginas para practicar programación',
     date: '26/02/2023',
     tags: [
-      'programación',
-      'desarrollo web',
-      'desarrollo de software',
-      'hackerrank',
-      'codewars',
-      'leetcode',
-      'programación en línea',
-      'práctica de programación'
+      '#programación',
+      '#desarrollo web',
+      '#desarrollo de software',
+      '#hackerrank',
+      '#codewars',
+      '#leetcode',
+      '#programación en línea',
+      '#práctica de programación'
     ],
     description:
       'Como desarrollador, sabes que la programación no se trata solo de aprender lenguajes, sino también de practicar la lógica y mejorar tus habilidades en la solución de problemas. Para hacer esto, es importante encontrar oportunidades para practicar y aplicar lo que has aprendido.',
