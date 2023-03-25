@@ -39,7 +39,7 @@ const Blog = () => {
             key={a.url}
             className='p-8 bg-gradient-to-r  from-slate-900 to-slate-800 ring-0 rounded-xl grid gap-4 group relative overflow-hidden'>
             <BottomContainer></BottomContainer>
-            <h3 className='font-semibold text-xl'>{a.title}</h3>
+            <h3 className='font-semibold text-xl truncate'>{a.title}</h3>
             <div className='flex justify-between text-zinc-400'>
               <span>{a.date}</span>
               <span className='flex gap-2 items-center group-hover:text-sky-500 transition-colors'>
