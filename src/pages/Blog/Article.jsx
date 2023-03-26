@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import articles from './Articles';
 import './article.module.scss';
@@ -14,6 +14,12 @@ import { ImTwitch } from 'react-icons/im';
 const Article = () => {
   let { id } = useParams();
   const article = articles.find((a) => a.url == id);
+
+  // on enter in component scroll to top
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <motion.div
       className='max-w-7xl m-auto px-2 md:px-8 w-full min-h-screen mt-40 mb-32 relative'
