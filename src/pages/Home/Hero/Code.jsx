@@ -76,47 +76,48 @@ const Code = () => {
               {t('code.about')} <span className='text-blue-400'>=</span>{' '}
               <span className='text-yellow-100'>&#123;</span> <br></br>
               {'  '}
-              {'  '} {t('code.name')}{' '}
-              <span className='text-blue-400'>=</span> '
-              <span className='text-yellow-100'>Bautista</span>' <br></br>
+              {'  '} {t('code.name')}
+              <span className='text-blue-400'>:</span> '
+              <span className='text-yellow-100'>Bautista</span>', <br></br>
               {'  '}
-              {'  '} {t('code.lastname')}{' '}
-              <span className='text-blue-400'>=</span> '
-              <span className='text-yellow-100'>Pietraroia</span>'{' '}
+              {'  '} {t('code.lastname')}
+              <span className='text-blue-400'>:</span> '
+              <span className='text-yellow-100'>Pietraroia</span>',
               <br></br>
               {'  '}
-              {'  '} {t('code.image')}{' '}
-              <span className='text-blue-400'>=</span>{' '}
+              {'  '} {t('code.image')}
+              <span className='text-blue-400'>:</span>{' '}
               <span
                 className='text-yellow-100 underline cursor-pointer cursorClick'
                 onClick={() => setshowImage(true)}>
                 bautista.jpg
               </span>
-              <br></br>
+              ,<br></br>
               {'  '}
-              {'  '} {t('code.age')}{' '}
-              <span className='text-blue-400'>=</span>{' '}
-              <span className='text-yellow-100'>19</span> <br></br>
+              {'  '} {t('code.age')}
+              <span className='text-blue-400'>:</span>{' '}
+              <span className='text-yellow-100'>19</span>,<br></br>
               {'  '}
-              {'  '} {t('code.country')}{' '}
-              <span className='text-blue-400'>=</span> '
-              <span className='text-yellow-100'>Argentina</span>' <br></br>
+              {'  '} {t('code.country')}
+              <span className='text-blue-400'>:</span> '
+              <span className='text-yellow-100'>Argentina</span>',<br></br>
               {'  '}
-              {'  '} {t('code.spanish')}{' '}
-              <span className='text-blue-400'>=</span> '
+              {'  '} {t('code.spanish')}
+              <span className='text-blue-400'>:</span> '
               <span className='text-yellow-100'>
                 {t('code.spanishValue')}
               </span>
-              ' <br></br>
+              ',<br></br>
               {'  '}
-              {'  '} {t('code.english')}{' '}
-              <span className='text-blue-400'>=</span> '
+              {'  '} {t('code.english')}
+              <span className='text-blue-400'>:</span> '
               <span className='text-yellow-100'>
                 {t('code.englishValue')}
               </span>
-              ' <br></br>
+              '<br></br>
               {'  '}
-              <span className='text-yellow-100'>&#125;</span> <br></br>
+              <span className='text-yellow-100'>&#125;</span>
+              <br></br>
               <br></br>
               {'  '}
               <span className='text-blue-400'>return</span>{' '}
