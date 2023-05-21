@@ -12,11 +12,6 @@ import { toast } from 'react-hot-toast';
 const Projects = () => {
   const { t } = useTranslation(['translation']);
 
-  const comingHandler = (e) => {
-    e.preventDefault();
-    toast.error(t('projects.coming'));
-  };
-
   return (
     <div className='grid gap-12'>
       <Title title={t('projects.title')}></Title>
@@ -50,7 +45,6 @@ const Projects = () => {
               <div className='font-semibold p-0.5 bg-gradient-to-r  from-sky-500 to-sky-700 ring-0 rounded-xl overflow-hidden transition-transform'>
                 <a
                   href='https://sneakers.bautistapietraroia.com.ar/'
-                  onClick={comingHandler}
                   target='_blank'
                   className='px-6 py-2 bg-[#112] rounded-xl flex items-center gap-2 justify-center h-full'>
                   <ImLink></ImLink>Deploy
