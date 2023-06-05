@@ -24,7 +24,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="mt-2 ml-4 pb-5 lg:ml-0">
-            <h3 className="mb-1.5 text-xl font-semibold">Next Step <span className='text-sky-400'>, Full Stack Developer</span></h3>
+            <h3 className="mb-1.5 text-xl font-semibold">Neurona Corp <span className='text-sky-400'>, Full Stack Developer</span></h3>
             <p className="mb-3 text-white"><span className='text-sky-500'>{t('experience.tech')}:</span> React, Python, Django, MongoDB</p>
             <ul className="mb-3 text-zinc-400 grid gap-2">
               <li>{t('experience.ns1')}</li>
