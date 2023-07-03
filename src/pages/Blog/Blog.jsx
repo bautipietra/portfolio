@@ -7,10 +7,14 @@ import { Link } from 'react-router-dom';
 import BottomContainer from '../../components/BottomContainer';
 import Title from '../../components/Title';
 import articles from './Articles';
+import { useState } from 'react';
+import { Loader } from '../../components/Loader';
 
 const Blog = () => {
   const { i18n } = useTranslation();
   const { t } = useTranslation('translation');
+
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     if (i18n.language === 'EN') {
@@ -55,10 +59,11 @@ const Blog = () => {
             repeat: Infinity,
             repeatType: 'reverse'
           }}></motion.div>
+        {!isLoaded && <Loader></Loader>}
         {articles.map((a, i) => (
           <motion.div
             key={'f' + i}
-            className='w-full h-full'
+            className={`w-full h-full ${!isLoaded && 'invisible'}`}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
@@ -72,6 +77,9 @@ const Blog = () => {
                 src={a.thumbnail}
                 alt=''
                 className='md:col-span-4 h-full w-full object-cover'
+                onLoad={() => {
+                  i == articles.length - 1 && setIsLoaded(true);
+                }}
               />
               <div className='flex flex-col md:col-span-8 relative px-8 py-4 justify-between gap-4'>
                 <div className='grid gap-4'>
