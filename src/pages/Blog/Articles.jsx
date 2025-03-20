@@ -17,7 +17,7 @@ const articles = [
     thumbnail: 'https://i.imgur.com/DfWJ6st.png',
     url: 'el+auge+del+desarrollo+web',
     title: 'El Auge del Desarrollo Web',
-    date: ’20/03/2025',
+    date: '20/03/2025',
     tags: [
       '#DesarrolloWeb',
       '#TendenciasWeb',
