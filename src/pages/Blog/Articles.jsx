@@ -13,44 +13,6 @@
 */
 
 const articles = [
-   {
-    thumbnail: 'https://i.imgur.com/DfWJ6st.png',
-    url: 'el+auge+del+desarrollo+web',
-    title: 'El Auge del Desarrollo Web',
-    date: '20/03/2025',
-    tags: [
-      '#DesarrolloWeb',
-      '#TendenciasWeb',
-      '#SEO'
-    ],
-    description:
-      'En los últimos años, el desarrollo web ha crecido de manera exponencial debido a la digitalización, el comercio electrónico y la evolución tecnológica.',
-    content: `
-      <p>En los últimos años, el desarrollo web ha experimentado un crecimiento exponencial. La digitalización de los negocios, el avance de las tecnologías y la necesidad de una presencia online sólida han impulsado la demanda de sitios web profesionales y optimizados. Hoy en día, contar con una página web bien diseñada no es un lujo, sino una necesidad para empresas y emprendedores que buscan destacarse en un mercado cada vez más competitivo.</p>
-      
-      <h2>Factores Clave en el Crecimiento del Desarrollo Web</h2>
-      <ul>
-        <li><strong>Aumento del comercio electrónico:</strong> Cada vez más negocios trasladan sus operaciones al mundo digital, lo que genera una creciente demanda de sitios web funcionales y atractivos.</li>
-        <li><strong>Expansión de las páginas corporativas:</strong> Empresas de todos los sectores necesitan una presencia digital para mejorar su visibilidad y credibilidad.</li>
-        <li><strong>Avances en tecnologías web:</strong> Frameworks modernos, diseño responsivo y optimización SEO son esenciales para el éxito online.</li>
-        <li><strong>Mayor enfoque en la experiencia del usuario:</strong> La velocidad de carga, la accesibilidad y la navegación intuitiva son factores decisivos para el rendimiento de una web.</li>
-        <li><strong>Integración con herramientas de automatización:</strong> La optimización de procesos mediante CRM, chatbots y análisis de datos permite mejorar la eficiencia y el rendimiento de los negocios en línea.</li>
-      </ul>
-      
-      <h2>La Importancia de Tener un Sitio Web Profesional</h2>
-      <p>Contar con un sitio web bien desarrollado trae múltiples beneficios:</p>
-      <ul>
-        <li><strong>Mayor credibilidad y autoridad:</strong> Una web profesional genera confianza en los usuarios.</li>
-        <li><strong>Mejor posicionamiento en buscadores:</strong> Con una estrategia SEO adecuada, se pueden alcanzar mejores posiciones en Google y atraer más tráfico orgánico.</li>
-        <li><strong>Aumento de conversiones y ventas:</strong> Una web optimizada facilita la captación de clientes y la generación de ingresos.</li>
-        <li><strong>Disponibilidad 24/7:</strong> Un sitio web funciona como una oficina abierta todo el día, permitiendo a los clientes acceder a la información cuando lo necesiten.</li>
-      </ul>
-      
-      <p>Siempre me ha interesado el impacto que una buena estrategia digital puede tener en los negocios. Por eso, decidí fundar <strong>Webty</strong>, una agencia especializada en diseño y desarrollo web. Desde entonces, he trabajado con distintos clientes para ayudarlos a construir su presencia online de manera efectiva. Si querés conocer más sobre lo que hago, podés visitar <a href='https://webty.com.ar' target='_blank'>webty.com.ar</a>.</p>
-      
-      <p>El desarrollo web sigue evolucionando y con él, las oportunidades para quienes desean destacar en el entorno digital. No te quedes atrás, potenciá tu negocio con un sitio web de calidad.</p>
-    `
-  },
   {
     thumbnail: 'https://i.imgur.com/dN7sosH.jpg',
     url: 'ruta+de+aprendizaje+para+ser+un+programador+full+stack',
