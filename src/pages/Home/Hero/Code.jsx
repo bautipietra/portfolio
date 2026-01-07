@@ -10,6 +10,19 @@ const Code = () => {
 
   const [showImage, setshowImage] = useState(false);
 
+  const calculateAge = (birthDate) => {
+    const today = new Date();
+    const birth = new Date(birthDate);
+    let age = today.getFullYear() - birth.getFullYear();
+    const monthDiff = today.getMonth() - birth.getMonth();
+    
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+      age--;
+    }
+    
+    return age;
+  };
+
   const copyHandler = () => {
     const code = document.querySelector('#code').innerText;
     navigator.clipboard.writeText(code);
@@ -96,7 +109,7 @@ const Code = () => {
               {'  '}
               {'  '} {t('code.age')}
               <span className='text-blue-400'>:</span>{' '}
-              <span className='text-yellow-100'>19</span>,<br></br>
+              <span className='text-yellow-100'>{calculateAge('2003-10-30')}</span>,<br></br>
               {'  '}
               {'  '} {t('code.country')}
               <span className='text-blue-400'>:</span> '
