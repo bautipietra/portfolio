@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaNodeJs, FaPython } from 'react-icons/fa'
-import { SiExpress, SiDjango, SiPostgresql, SiMongodb, SiJavascript, SiTypescript, SiReact, SiRedux, SiHtml5, SiCss3 } from 'react-icons/si'
+import { SiExpress, SiPostgresql, SiMongodb, SiJavascript, SiTypescript, SiReact, SiHtml5, SiCss3, SiNextdotjs, SiPhp, SiLaravel } from 'react-icons/si'
 
 const Languages = () => {
   const iconSize = '20px'
@@ -27,19 +27,19 @@ const Languages = () => {
         <span className='font-medium hidden md:inline'>React</span>
       </div>
       <div className='flex items-center gap-2'>
-        <SiRedux title='Redux' size={iconSize}></SiRedux>
-        <span className='font-medium hidden md:inline'>Redux</span>
+        <SiNextdotjs title='Next.js' size={iconSize}></SiNextdotjs>
+        <span className='font-medium hidden md:inline'>Next.js</span>
       </div>
 
       <div className='h-0 basis-full block xs:hidden md:block'></div>
 
       <div className='flex items-center gap-2'>
-        <FaPython title='Python' size={iconSize}></FaPython>
-        <span className='font-medium hidden md:inline'>Python</span>
+        <SiPhp title='PHP' size={iconSize}></SiPhp>
+        <span className='font-medium hidden md:inline'>PHP</span>
       </div>
       <div className='flex items-center gap-2'>
-        <SiDjango title='Django' size={iconSize}></SiDjango>
-        <span className='font-medium hidden md:inline'>Django</span>
+      <SiLaravel title='Laravel' size={iconSize}></SiLaravel>
+        <span className='font-medium hidden md:inline'>Laravel</span>
       </div>
       <div className='flex items-center gap-2'>
         <FaNodeJs title='Node' size={iconSize}></FaNodeJs>
