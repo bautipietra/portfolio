@@ -113,7 +113,7 @@ const Code = () => {
               {'  '}
               {'  '} {t('code.country')}
               <span className='text-blue-400'>:</span> '
-              <span className='text-yellow-100'>Argentina</span>',<br></br>
+              <span className='text-yellow-100'>Argentina 🇦🇷</span>',<br></br>
               {'  '}
               {'  '} {t('code.spanish')}
               <span className='text-blue-400'>:</span> '
